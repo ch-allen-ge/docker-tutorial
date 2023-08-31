@@ -14,7 +14,7 @@ pipeline {
       steps {
         echo 'executing gradle...'
         withGradle() {
-          fetch './gradlew -v 
+          fetch './gradlew -v
         }
       }
     }
